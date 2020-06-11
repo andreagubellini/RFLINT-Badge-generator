@@ -56,7 +56,7 @@ def create_badge(robotfile, file):
                     right_text='Errors count:' + str(error_count),
                     right_color='yellow', logo=LOGO, embed_logo=False)
         convert_svg(badge_svg, file)
-    elif error_count == 9:
+    elif error_count >= 9:
         badge_svg = badge(left_text='RFLINT', 
                     right_text='Errors count:' + str(error_count),
                     right_color='red', logo=LOGO, embed_logo=False)
