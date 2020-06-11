@@ -14,6 +14,7 @@ LOGO="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAARenpU
 FILE = "badge.html"
 
 def main():
+    
     parser = ArgumentParser()
     parser.add_argument(
         "-a",
@@ -45,7 +46,6 @@ def main():
 def create_badge(robotfile, file):
 
     error_count = RfLint().run(robotfile)
-
     if error_count > 0 and error_count < 5:
         badge_svg  = badge(left_text='RFLINT', 
                     right_text='Errors count:' + str(error_count),
