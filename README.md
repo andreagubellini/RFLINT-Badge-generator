@@ -16,9 +16,9 @@ This project is meant to run automatically in ci tools such as Gitlab-ci, github
 
 ### SVG
 
-![Example](./badge.svg)
+![Example](./examples/badge2.svg)
 
 ### PNG
 
-![Example](./badge.png)
+![Example](./examples/badge2.png)
 
