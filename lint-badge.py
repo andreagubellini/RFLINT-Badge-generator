@@ -64,9 +64,9 @@ def create_badge(robotfile, file):
 
 def convert_svg(svg, file):
     if file == 'png':
-        svg2png(bytestring=svg,write_to='badge.png')
+        svg2png(bytestring=svg,write_to='badge3.png')
     else:
-        svg2svg(bytestring=svg,write_to='badge.svg')
+        svg2svg(bytestring=svg,write_to='badge3.svg')
 
 if __name__ == "__main__":
     main()

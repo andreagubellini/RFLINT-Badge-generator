@@ -15,5 +15,8 @@ ${VARIABLE1}
 test case 2
     aeurjasd
     tejsaiogj
-	
+.
+.aeurjasd
+..ds
+.a.
   

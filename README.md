@@ -7,6 +7,13 @@ Based on the severity of the issues found by RFLINT the output will be either re
 This project is meant to run automatically in ci tools such as Gitlab-ci, github actions and jenkins.
 
 
+### Errors severity examples
+
+![Example](./examples/badge.svg)
+![Example](./examples/badge2.svg)
+![Example](./examples/badge3.svg)
+
+
 ### SVG
 
 ![Example](./badge.svg)
@@ -14,3 +21,4 @@ This project is meant to run automatically in ci tools such as Gitlab-ci, github
 ### PNG
 
 ![Example](./badge.png)
+
