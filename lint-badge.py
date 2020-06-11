@@ -43,14 +43,13 @@ def main():
     create_badge(rf_file, file_format)
 
 def create_badge(robotfile, file):
-    
+
     error_count = RfLint().run(robotfile)
 
     if error_count > 0 and error_count < 5:
         badge_svg  = badge(left_text='RFLINT', 
                     right_text='Errors count:' + str(error_count),
-                    right_color='green', embed_logo=False)
-        print(badge_svg)
+                    right_color='green', logo=LOGO, embed_logo=False)
         convert_svg(badge_svg, file)
     elif error_count > 5 and error_count < 9:
         badge_svg = badge(left_text='RFLINT', 
